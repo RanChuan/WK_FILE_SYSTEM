@@ -1,0 +1,41 @@
+Dependencies for Project 'FATFS', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5BAD8591)(--c99 -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\ADXL345 -I..\HARDWARE\DS18B20 -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SRAM -I..\MALLOC -I..\HARDWARE\SD -I..\FATFS\exfuns -I..\FATFS\src -I..\USMART -I..\FATFS\src\option -I..\CORE-I "F:\川~\STM32 F1\2018.9.30 温控集中器 第二套\2018.12.5 文件系统API\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\FATFS\src\ff.h)(0x5BAD80F8)
+I (..\FATFS\src\integer.h)(0x4BD31212)
+I (..\FATFS\src\ffconf.h)(0x50236DB2)
+I (define.h)(0x5BAD848E)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5BAD850F)
+F (.\define.c)(0x5BAB244A)(--c99 -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\ADXL345 -I..\HARDWARE\DS18B20 -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SRAM -I..\MALLOC -I..\HARDWARE\SD -I..\FATFS\exfuns -I..\FATFS\src -I..\USMART -I..\FATFS\src\option -I..\CORE-I "F:\川~\STM32 F1\2018.9.30 温控集中器 第二套\2018.12.5 文件系统API\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\define.o --omf_browse ..\obj\define.crf --depend ..\obj\define.d)
+I (define.h)(0x5BAD848E)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5BAD850F)
+F (..\CORE\startup_stm32f10x_hd.s)(0x5BAC7685)(--cpu Cortex-M3 -g --apcs=interwork -I "F:\川~\STM32 F1\2018.9.30 温控集中器 第二套\2018.12.5 文件系统API\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\FATFS\src\diskio.c)(0x5BAD852A)(--c99 -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\ADXL345 -I..\HARDWARE\DS18B20 -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SRAM -I..\MALLOC -I..\HARDWARE\SD -I..\FATFS\exfuns -I..\FATFS\src -I..\USMART -I..\FATFS\src\option -I..\CORE-I "F:\川~\STM32 F1\2018.9.30 温控集中器 第二套\2018.12.5 文件系统API\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\diskio.o --omf_browse ..\obj\diskio.crf --depend ..\obj\diskio.d)
+I (..\FATFS\src\diskio.h)(0x4D21CB12)
+I (..\FATFS\src\integer.h)(0x4BD31212)
+I (..\USER\define.h)(0x5BAD848E)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x5BAD850F)
+F (..\FATFS\src\ff.c)(0x5BAC4795)(--c99 -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\ADXL345 -I..\HARDWARE\DS18B20 -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SRAM -I..\MALLOC -I..\HARDWARE\SD -I..\FATFS\exfuns -I..\FATFS\src -I..\USMART -I..\FATFS\src\option -I..\CORE-I "F:\川~\STM32 F1\2018.9.30 温控集中器 第二套\2018.12.5 文件系统API\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\ff.o --omf_browse ..\obj\ff.crf --depend ..\obj\ff.d)
+I (..\FATFS\src\ff.h)(0x5BAD80F8)
+I (..\FATFS\src\integer.h)(0x4BD31212)
+I (..\FATFS\src\ffconf.h)(0x50236DB2)
+I (..\FATFS\src\diskio.h)(0x4D21CB12)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+F (..\FATFS\src\option\cc936.c)(0x5C077D70)(--c99 -c --cpu Cortex-M3 -g -O0 -Otime --apcs=interwork --split_sections -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\ADXL345 -I..\HARDWARE\DS18B20 -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SRAM -I..\MALLOC -I..\HARDWARE\SD -I..\FATFS\exfuns -I..\FATFS\src -I..\USMART -I..\FATFS\src\option -I..\CORE-I "F:\川~\STM32 F1\2018.9.30 温控集中器 第二套\2018.12.5 文件系统API\USER\RTE"-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\cc936.o --omf_browse ..\obj\cc936.crf --depend ..\obj\cc936.d)
+I (..\FATFS\src\option\../ff.h)(0x5BAD80F8)
+I (..\FATFS\src\option\../integer.h)(0x4BD31212)
+I (..\FATFS\src\option\../ffconf.h)(0x50236DB2)

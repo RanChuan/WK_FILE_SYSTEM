@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+"..\obj\main.o"
+"..\obj\define.o"
+"..\obj\startup_stm32f10x_hd.o"
+"..\obj\diskio.o"
+"..\obj\ff.o"
+"..\obj\cc936.o"
+--strict --scatter "..\OBJ\FATFS.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\FATFS.map" -o ..\OBJ\FATFS.axf
